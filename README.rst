@@ -12,6 +12,7 @@ TOOLS TO BE USED :
 
 1. matplotlib
 2. psutil
+3. gtk
 
 HOW TO INSTALL THE DEPENDENCIES :
 ---------------------------------
