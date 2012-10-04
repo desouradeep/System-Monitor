@@ -8,7 +8,7 @@ import gobject
 
 def main():
     win = gtk.Window()
-    win.connect("destroy", lambda x: sys.exit())
+    win.connect("destroy", lambda x: gtk.main_quit())
     win.set_default_size(700,350)
     win.set_title("SYSTEM MONITOR")
 
