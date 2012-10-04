@@ -40,7 +40,7 @@ def graph(a,f):
 	m.append(data.mem())
 	d.append(data.dsk())
 	
-	if len(c)>50:
+	if len(c)>60:
 	    del c[0]
 	    del m[0]
 	    del d[0]
